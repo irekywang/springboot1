@@ -17,4 +17,9 @@ public class UserController {
     public String eat(){
         return "eat";
     }
+
+    @RequestMapping("/look")
+    public String look(){
+        return "look";
+    }
 }

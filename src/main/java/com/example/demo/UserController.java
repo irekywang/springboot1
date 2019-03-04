@@ -9,7 +9,12 @@ import org.springframework.web.bind.annotation.RestController;
 public class UserController {
 
     @RequestMapping("/say")
-    public String getSay(){
-        return "ss";
+    public String say(){
+        return "say";
+    }
+
+    @RequestMapping("/eat")
+    public String eat(){
+        return "eat";
     }
 }
